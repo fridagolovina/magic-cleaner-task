@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Test-application</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+
+
+    <div class="ct-topbar">
+      <div class="container">
+      <ul class="list-unstyled list-inline ct-topbar__list">
+        <li class="ct-language">Language <i class="fa fa-arrow-down"></i>
+        <ul class="list-unstyled ct-language__dropdown">
+          <li><a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img src="https://www.solodev.com/assets/google-translate/flag-usa.png" alt="USA"></a></li>
+          <li><a href="#googtrans(en|es)" class="lang-es lang-select" data-lang="es"><img src="https://www.solodev.com/assets/google-translate/flag-mexico.png" alt="MEXICO"></a></li>
+          <li><a href="#googtrans(en|fr)" class="lang-es lang-select" data-lang="fr"><img src="https://www.solodev.com/assets/google-translate/flag-france.png" alt="FRANCE"></a></li>
+          <li><a href="#googtrans(en|zh-CN)" class="lang-es lang-select" data-lang="zh-CN"><img src="https://www.solodev.com/assets/google-translate/flag-china.png" alt="CHINA"></a></li>
+          <li><a href="#googtrans(en|ja)" class="lang-es lang-select" data-lang="ja"><img src="https://www.solodev.com/assets/google-translate/flag-japan.png" alt="JAPAN"></a></li>
+        </ul>
+        </li>
+      </ul>
+      </div>
+    </div>
+
+
+
+    <div class="main-screen">
+
+      <div class="left-main-block center-main-block">
+        <a href="#" class="button-download">DOWNLOAD</a>
+
+
+        <div class="b-display-nowrap indent-margin-25 center-main-block">
+          <a href="#" class="menu-block a-white-text" >ABOUT US</a>
+          <a href="#yakor"  class="menu-block a-white-text" >WHAT WE CAN DO</a>
+          <a href="#yakor2"  class="menu-block a-white-text" >REVIEWS</a>
+        </div>
+
+
+        <div class="content center-main-block">
+          <div class="main-text center-main-block">
+            Download the app<br>It's very fast and easy
+          </div>
+          <div class="text-about-application center-main-block">
+            Magic cleaner is a unility to speed up your phone and optimize performance. This speed booster make full use of the accessibility service to thoroughly and durably stop the unnecessary process of running apps in background.
+          </div>
+
+          <div class="b-display-nowrap indent-margin-30 text-about-application center-main-block">
+            <a href="https://www.apple.com/ru/app-store/" class="button-transition-app"><img class="icon-app" src="img/icon-appstore.png" alt="">AppStore</a>
+            <a href="https://play.google.com/store/apps/details?id=pro.magic.cleaner.boost" class="button-transition-app margin-20"><img class="icon-app" src="img/icon-googleplay.png" alt="">GooglePlay</a>
+          </div>
+        </div>
+
+        <div class="block-social-networks center-main-block">
+          <a href="https://instagram.com/frida_fridaaa?igshid=iwg41wipymw" ><img class="icon-social-networks" src="img/icon-twitter.png" alt=""></a>
+          <a href="https://instagram.com/frida_fridaaa?igshid=iwg41wipymw" ><img class="icon-social-networks" src="img/icon-facebook.png" alt=""></a>
+          <a href="https://instagram.com/frida_fridaaa?igshid=iwg41wipymw" ><img class="icon-social-networks" src="img/icon-instagram.png" alt=""></a>
+        </div>
+      </div>
+      <div class="right-block-phone">
+        <img class="block-phone" src="img/img-phone.png" alt="">
+      </div>
+    </div>
+
+
+    <div class="main">
+      <div id="yakor" class="block-advantage">
+        What we can do
+      </div>
+      <div class="block-description-advantage">
+        Magic cleaner is a unility to speed up your phone and optimize performance
+      </div>
+
+      <div class="block-advantages">
+        <div class="advantage">
+          <img class="icon-social-networks" src="img/icon-cleaning.png" alt="">
+          <div class="heading-block-advantage">
+            Memory cleaning
+          </div>
+          <div class="small-block-advantage">
+            Clean up the memory and make phone faster
+          </div>
+        </div>
+
+
+        <div class="advantage">
+          <img class="icon-social-networks" src="img/icon-rocket.png" alt="">
+          <div class="heading-block-advantage">
+            Acceleration
+          </div>
+          <div class="small-block-advantage">
+            Spead up memory in seconds
+          </div>
+        </div>
+
+
+        <div class="advantage">
+          <img class="icon-social-networks-stop" src="img/icon-stop.png" alt="">
+          <div class="heading-block-advantage">
+            Stopping in the running up
+          </div>
+          <div class="small-block-advantage">
+            Besides stopping in the running up
+          </div>
+        </div>
+
+
+        <div class="advantage">
+          <img class="icon-social-networks" src="img/icon-cross.png" alt="">
+          <div class="heading-block-advantage">
+            File cleaner
+          </div>
+          <div class="small-block-advantage">
+            Junk file cleaner
+          </div>
+        </div>
+
+
+        <div class="advantage">
+          <img class="icon-social-networks" src="img/icon-attachment.png" alt="">
+          <div class="heading-block-advantage">
+            Adding applications
+          </div>
+          <div class="small-block-advantage">
+            There is also the ignore list for you to add apps you want to keep running
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer-background">
+      <div id="yakor2" class="block-advantage">
+        Review
+      </div>
+      <div class="block-description-advantage">
+        Click on the review and read on!
+      </div>
+      <div class="">
+        <img class="img-review active" src="img/review-1.jpg">
+        <img class="img-review" src="img/review-2.jpg">
+        <img class="img-review" src="img/review-3.jpg">
+        <img class="img-review" src="img/review-4.jpg">
+        <img class="img-review" src="img/review-5.jpg">
+        <img class="img-review" src="img/review-6.jpg">
+        <img class="img-review" src="img/review-7.jpg">
+        <img class="img-review" src="img/review-8.jpg">
+        <img class="img-review" src="img/review-9.jpg">
+        <img class="img-review" src="img/review-10.jpg">
+      </div>
+
+    </div>
+
+
+    <script src="script/script.js"></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  </body>
